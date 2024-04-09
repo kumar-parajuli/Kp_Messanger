@@ -13,6 +13,9 @@
         android:theme="@style/Theme.KP_Messanger"
         tools:targetApi="31">
         <activity
+            android:name=".chatWin"
+            android:exported="false" />
+        <activity
             android:name=".registration"
             android:exported="false" />
         <activity

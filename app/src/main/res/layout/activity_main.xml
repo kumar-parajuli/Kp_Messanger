@@ -13,29 +13,30 @@
         android:layout_width="wrap_content"
         android:layout_height="63dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="@dimen/_12sdp"
-        android:layout_marginEnd="25dp"
-        android:background="@color/white"
-        android:gravity="right"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginLeft="23dp"
-        android:layout_marginRight="25dp">
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:background="@color/white"
+        android:gravity="right">
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
             android:layout_weight="1"
             android:fontFamily="@font/poppins_bold"
             android:text="@string/app_name"
             android:textColor="#2a364e"
-            android:textSize="@dimen/_20sdp"
-            android:layout_marginLeft="@dimen/_10sdp" />
-
+            android:textSize="@dimen/_20sdp" />
 
         <ImageView
             android:id="@+id/logoutimg"
@@ -59,12 +60,12 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="167dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginRight="19dp"
-        android:layout_marginBottom="104dp" />
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="102dp" />
 
     <ImageView
         android:id="@+id/camBut"
@@ -73,9 +74,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="258dp"
-        android:layout_marginRight="258dp"
-        android:layout_marginBottom="42dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginRight="256dp"
+        android:layout_marginBottom="38dp"
         android:src="@drawable/camera" />
 
     <ImageView
@@ -84,11 +85,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="176dp"
-        android:layout_marginRight="176dp"
-        android:layout_marginBottom="36dp"
-        android:src="@drawable/chat"
-    />
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="38dp"
+        android:src="@drawable/chat" />
 
     <ImageView
         android:id="@+id/settingBut"
@@ -97,9 +97,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="104dp"
-        android:layout_marginRight="104dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginBottom="38dp"
         android:src="@drawable/sett" />
 
     <ImageView
